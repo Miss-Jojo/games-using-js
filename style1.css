@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #93a8ac;
+  background-color: #d88373;
   text-align: center;
 }
 
@@ -37,7 +37,23 @@ body {
 #reset-btn {
   padding: 1rem;
   font-size: 1.25rem;
-  background-color: rgb(99, 242, 255);
-  color: black;
-  border-radius: 1.2rem;
+  background-color: #17255a;
+  color: rgb(255, 217, 217);
+  border-radius: 0.4rem;
+}
+
+#back-to-home-page {
+  margin: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: #18206f;
+
+  border-radius: 0.3rem;
+  font-family: "Times New Roman", Times, serif;
+  /* text-decoration: none; */
+}
+
+#back-to-home-page a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }

@@ -28,3 +28,10 @@ h1 {
 .game:hover {
   background-color: rgb(73, 160, 227);
 }
+
+button a {
+  text-decoration: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 50px;
+  color: rgb(27, 15, 0);
+}

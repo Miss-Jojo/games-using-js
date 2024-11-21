@@ -32,6 +32,7 @@ body {
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
   font-size: 8vmin;
   color: #b0413b;
+  background-color: #041c76;
 }
 
 #reset-btn {
@@ -56,4 +57,25 @@ body {
 #back-to-home-page a {
   text-decoration: none;
   color: rgb(255, 255, 255);
+}
+
+#new-btn {
+  padding: 0.5rem;
+  font-size: 1.25rem;
+  background-color: #17255a;
+  color: rgb(255, 217, 217);
+  border-radius: 0.4rem;
+}
+
+#msg {
+  color: #fff;
+  font-size: 8vmin;
+}
+
+.msg-container {
+  height: 30vmin;
+}
+
+.hide {
+  display: none;
 }

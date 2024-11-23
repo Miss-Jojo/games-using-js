@@ -22,7 +22,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 1.5vmin;
+  gap: 2vmin;
 }
 
 .box {
@@ -73,9 +73,14 @@ body {
 }
 
 .msg-container {
-  height: 30vmin;
+  height: 20vmin;
+  gap: 4rem;
 }
 
 .hide {
   display: none;
+}
+
+.game:hover .box:not(:hover) {
+  opacity: 0.3;
 }

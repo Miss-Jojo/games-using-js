@@ -16,6 +16,7 @@ h1 {
   /* background-color: aliceblue; */
   text-align: center;
   font-family: garamond;
+  border: solid 2px black;
 }
 .game {
   display: flex;

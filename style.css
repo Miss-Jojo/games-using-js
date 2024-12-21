@@ -7,7 +7,7 @@ body {
   width: 100%;
   justify-content: space-evenly;
   align-items: center;
-  background-color: rgb(73, 160, 227);
+  background-color: rgb(173, 209, 236);
   background-image: url("totoro.png");
   background-size: cover;
 }
@@ -28,6 +28,7 @@ h1 {
   border-radius: 6rem;
   box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
     inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  filter: none;
 }
 
 .game:hover {
